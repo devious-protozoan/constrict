@@ -19,4 +19,4 @@
 #
 
 board: [ "adafruit_kb2040" ]
-shield: [ "constric_left", "constrict_right" ]
+shield: [ "constrict_left", "constrict_right" ]
