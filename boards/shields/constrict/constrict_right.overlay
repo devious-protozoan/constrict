@@ -1,0 +1,18 @@
+#include "constrict.dtsi"
+
+&default_transform {
+  col-offset = <7>;
+};
+
+
+&kscan {
+     col-gpios
+         = <&gpio0 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+         , <&gpio0 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+         , <&gpio0 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+         , <&gpio0 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+         , <&gpio0 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+         , <&gpio0 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+         , <&gpio0 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+         ;
+};
